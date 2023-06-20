@@ -1,0 +1,230 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin: 0px; 
+	padding: 0px; 
+}
+ /*========header======*/
+div.header{
+	width: 80%;
+	margin: auto;
+	margin-top:40px;
+	height: 60px;
+}
+div h1{
+	color: red;
+	text-align: center;
+}
+div.header a{
+	padding:5px;
+ 	border:1px solid orange;
+	background-color: #ff8080;
+	font-weight: bold;
+	font: 16px;
+	vertical-align: middle;
+	margin: 2px;
+	text-decoration: none;
+}
+div.home{
+	width: 600px;
+	margin:20px auto;
+}
+div.home p{
+line-height: 22px;
+	
+}
+/*========content table======*/
+div.content{
+	width: 80%; 
+	margin: 20px auto;
+	
+}
+.table .cell{
+	display: table;
+	width: 100%;
+	font: 13px Tahoma, Geneva, sans-serif;	
+}
+
+div.table .cell >  p{
+	display: table-cell;
+	border: 1px solid #CCC;
+	vertical-align: middle;
+	text-align: center;
+	
+}
+div.table .header{
+	color: #ffff;
+	text-align: center;
+	background-color: blue;
+	height: 15px;
+}
+div.table .odd{
+	background-color: #d3d3d3;
+}
+div.table .error{
+	height: 12px;
+	width: 50%;
+	color: red;
+	margin-left: 40px;
+}
+div.table .notice{
+	width: 40%;
+	margin:auto;
+	height: 20px;
+	color: green;
+}
+div.table .cell p.name{	
+	padding: 10px;
+	text-align: left;
+	font-weight: bold;	
+}
+div.table .cell span{	
+	font-weight:normal;
+}
+div.table .cell p.no{	
+	width: 5%;	
+	text-align: center;	
+}
+div.table .cell p.id{	
+	width: 10%;	
+}
+div.table .cell p.size{	
+	width: 10%;	
+}
+
+div.table .cell p.action{	
+	width: 10%;	
+}
+div.table .operation {
+	margin: 20px 0px;
+	
+}
+div.table .operation a{
+	border: 1px solid green;
+	padding: 10px;
+	color: #ffff;
+	text-decoration: none;
+	margin: auto;
+}
+div.table .operation a:hover{
+	color: orange;
+}
+div.table .operation a.delete{
+	background-color: red;	 
+}
+div.table .operation a.add{
+	background-color: green; 
+}
+div.table .operation a.cancel{
+	background-color: maroon;	 
+}
+
+div.table div.action {
+	width: 40%;
+	margin: 20px auto;
+}
+div.table div.action a{
+	border: 1px solid green;
+	padding: 10px;
+	color: #ffff;
+	text-decoration: none;
+}
+
+div.table div.action a.delete{
+	background-color: red;
+	padding: 10px 20px;
+}
+div.table div.action a.add{
+	background-color: green;
+	  margin-left:40px;
+	padding: 10px 25px;
+}
+div.table div.action a.cancel{
+	background-color: maroon;
+	 margin-left:10px;
+	padding: 10px 20px;
+}
+div.table div.action input{
+	border: 1px solid orange;
+	color: #ffff;
+	font-weight:bold;
+	padding: 15px;
+}
+div.table div.action input.submit{
+	background-color: green;
+	margin: 0px 40px;
+}
+div.table div.action input.reset{
+	background-color: #ffbbdd;
+	margin: 0px;
+}
+ a:hover{
+	color: red;
+}
+div.layout a.active{
+	background-color: green;
+}
+div.table div.pagination ul{
+	float: right;
+	margin-top: 5px;
+}
+div.table div.pagination li{
+	list-style-position: inside;
+	list-style-type: none;
+	border: 1px solid navy;
+	display: inline-block;
+	margin: 5px;
+	padding: 2px ;
+	font: 10px Tahoma, Geneva, sans-serif;	
+}
+
+div.table div.pagination li.current{
+	background-color: silver;
+	
+}
+/*========content row======*/
+div.table .row {
+	width: 40%;
+	margin: auto;
+}
+div.table .row p{
+	margin: 5px 40px;
+	font: 15px Tahoma, Geneva, sans-serif;
+	
+}
+div.table .row p input{
+	width: 90%;
+	height: 20px;
+	padding: 5px;
+	background-color: #a6ffff;
+}
+div.table .row p select{
+	width: auto;
+	height: 30px;
+	padding: 5px;
+	background-color: #ffffbb;
+}
+div.table .row label{
+	display:inline-block;
+	background-color: #dadada;
+	width: 100%;
+	float: right;
+}
+
+/*========footer======*/
+div.footer{
+	width: 80%;
+	margin: 100px auto;
+	background-color: #bfd0cf;
+	
+} 
+div.footer p{
+	margin: 5px;
+	
+} 
+div.footer .infor{
+	width: 30%;
+	display: inline-block;
+	
+} 
+
+
